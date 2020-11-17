@@ -1,0 +1,53 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+img{
+    width:100%;
+}
+.dark_nav_border{
+    background: #343A40;
+    border-bottom: 3px solid #DC3545;
+    opacity: .7;
+}
+#section_img{
+    min-height: 700px;
+    background: url(assets/home.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.dark_overlay{
+    min-height: 700px;
+    background: rgba(0,0,0, .7)
+}
+.home_inner{
+    padding-top: 100px;
+}
+.fas, .exp_sec_icon{
+    background: #fff;
+    border-radius: 5px;
+    color: #DC3545;
+    font-size: 24px;
+}
+.form_trans{
+    opacity: .8;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:576pc){
+    .home_head{
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+}
